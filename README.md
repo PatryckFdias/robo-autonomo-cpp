@@ -4,9 +4,7 @@ Arquitetura e desenvolvimento de um sistema embarcado para navegação autônoma
 
 ## ⚙️ Topologia de Hardware e Esquemático
 
-(<img width="424" height="227" alt="image" src="https://github.com/user-attachments/assets/945668ea-fe9f-4893-b7af-0220ccb6c10c" />
-]()
-magem_diagrama.png)
+<img width="424" height="227" alt="image" src="https://github.com/user-attachments/assets/945668ea-fe9f-4893-b7af-0220ccb6c10c" />
 
 **Stack de Hardware:**
 * Microcontrolador: Arduino Uno
