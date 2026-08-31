@@ -14,7 +14,10 @@ Arquitetura e desenvolvimento de um sistema embarcado para navegação autônoma
 ## 📐 Projeto Mecânico
 
 *(Suba a image_f28809.png aqui)*
-![Dimensões CAD](./assets/nome_da_imagem_dimensoes.png)
+<img width="244" height="216" alt="image" src="https://github.com/user-attachments/assets/00d82f19-585c-45c6-851e-9615733e318e" />
+<img width="242" height="214" alt="image" src="https://github.com/user-attachments/assets/9d387bed-17cd-4865-a6ea-6e7182fa4933" />
+
+
 
 ## 🧠 Lógica de Decisão e Dívida Técnica
 
