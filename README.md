@@ -4,7 +4,7 @@ Arquitetura e desenvolvimento de um sistema embarcado para navegação autônoma
 
 ## ⚙️ Topologia de Hardware e Esquemático
 
-![Diagrama de Ligação](<img width="424" height="227" alt="image" src="https://github.com/user-attachments/assets/945668ea-fe9f-4893-b7af-0220ccb6c10c" />
+(<img width="424" height="227" alt="image" src="https://github.com/user-attachments/assets/945668ea-fe9f-4893-b7af-0220ccb6c10c" />
 ]()
 magem_diagrama.png)
 
