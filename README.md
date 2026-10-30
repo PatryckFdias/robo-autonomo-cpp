@@ -23,3 +23,24 @@ O algoritmo atual processa os dados dos sensores infravermelhos para a rotina de
 
 **Roadmap de Refatoração (Next Steps):**
 A arquitetura atual utiliza funções bloqueantes (`delay()`) para as manobras de evasão. A próxima iteração do firmware substituirá essas chamadas por controle de tempo assíncrono via `millis()`, garantindo que o microcontrolador não perca ciclos de leitura dos sensores durante as curvas.
+
+## Como abrir e carregar o firmware
+
+1. Instale a Arduino IDE e abra [`main.ino`](main.ino).
+2. Selecione a placa Arduino Uno e a porta correspondente.
+3. Confira a alimentação, a ligação dos motores no L298N e o mapeamento de pinos definido no código antes de carregar.
+4. Grave o firmware e verifique o comportamento na pista e diante de obstáculos.
+
+## Pinagem definida no código
+
+| Função | Pino Arduino |
+| --- | --- |
+| Enable A / Enable B | 5 / 6 |
+| Motor esquerdo (frente / ré) | 9 / 8 |
+| Motor direito (frente / ré) | 7 / 4 |
+| Sensores de linha (esq. / dir.) | 2 / 3 |
+| Ultrassônico (TRIG / ECHO) | 13 / 12 |
+
+As velocidades e o estado lógico dos sensores estão definidos como constantes no início do arquivo. Confira se correspondem ao seu circuito antes de utilizar.
+
+**Limitação conhecida:** as manobras usam `delay()`, que bloqueia temporariamente novas leituras. A migração para `millis()` permanece como melhoria futura, não implementada nesta revisão.
